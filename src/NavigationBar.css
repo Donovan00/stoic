@@ -1,0 +1,24 @@
+.navigation-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute; 
+    top: 100px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    color: #e7d0d0;
+}
+
+.navigation-list li {
+    padding: 30px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
