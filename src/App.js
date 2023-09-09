@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import MyComponent from './lowerHome';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Welcome to the Stoic Sanctuary</h1>
+        <p>A community for students of stoicism</p>
       </header>
+      <main>
+        <MyComponent/>
+        <p>“The School of Athens,” showing some of the Ancient Greek philosophers, by Raphael. Vatican Museums. Credit: Public domain</p>
+      </main>
     </div>
   );
 }
