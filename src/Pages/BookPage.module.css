@@ -1,0 +1,41 @@
+/* BookPage.css */
+
+/* Style for the header */
+.App-header {
+    background-color: #007bff; /* Change the background color to your preference */
+    color: #fff; /* Text color */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style for the h1 element within the header */
+  .App-header h1 {
+    font-size: 36px; /* Adjust the font size as needed */
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Style for the paragraph element within the header */
+  .App-header p {
+    font-size: 18px; /* Adjust the font size as needed */
+  }
+  
+  /* Style for the list of book titles */
+  .book-list {
+    list-style-type: none; /* Remove list bullet points */
+    padding: 0;
+    margin: 20px 0; /* Add margin to separate from the header */
+  }
+  
+  /* Style for individual book titles */
+  .book-list-item {
+    font-size: 24px; /* Adjust the font size as needed */
+    margin: 10px 0; /* Add margin between book titles */
+  }
+  
+  /* Hover effect for book titles */
+  .book-list-item:hover {
+    cursor: pointer; /* Show pointer cursor on hover */
+    color: #007bff; /* Change text color on hover */
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
